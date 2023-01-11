@@ -1,0 +1,84 @@
+.product-list-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+    background-color: #f1f3f5;
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.product-list-container h1 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.product-list-hr {
+    width: 26%;
+    margin: 0px auto;
+    border-top: 2px solid #f03e3e;
+}
+
+.product-list {
+    text-align: center;
+
+}
+
+.product-list-wrapper {
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.product-list.bold {
+    font-weight: bold;
+}
+
+.product-list>* {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 8px 30px;
+    width: 18%;
+    font-size: 18px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.product-list>.delete-product {
+    box-sizing: border-box;
+}
+
+.product-list>.delete-product>* {
+    display: inline-block;
+    height: 40px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.product-list>.delete-product>*:hover {
+    color: gray;
+}
+
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+.product-link:hover {
+    color: gray;
+}
+
+.product-list-input {
+    display: block;
+    margin: 6px auto;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.product-list-input:focus{
+    outline: 2px solid gray;
+}
+.product-list-h2{
+    text-align: center;
+    margin-top: 10px;
+}

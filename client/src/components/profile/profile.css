@@ -1,0 +1,42 @@
+.user-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.user-profile {
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 16px;
+}
+
+.user-profile img {
+    width: 80px;
+}
+
+.my-product-container {
+    width: 70%;
+    padding: 10px 20px;
+    text-align: center;
+   
+}
+
+.table-heading>* {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 22%;
+    padding: 4px 4px;
+    font-size: 18px;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.my-product-hr {
+    width: 20%;
+    margin: 2px auto;
+    border-top: 2px solid #f03e3e;
+}
